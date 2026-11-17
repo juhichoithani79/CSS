@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>type & universal selector</title>
+    <style>
+        /*universal selector*/
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        /*type selector*/
+        section{
+            /*background color*/
+            background-color:aqua;
+            /*apply border - all side */
+            border:1px solid black;
+            /*apply gap between the paragraph*/
+            padding:10px;
+        }
+        article{
+            background-color:cadetblue;
+            border:2px dotted black;
+            padding:10px;
+            margin-bottom:15px;
+            color:white;
+        }
+        h1{
+            background-color:darkcyan;
+            padding:10px;
+            border:2px solid white;
+            border-radius:20px;
+            font-size:36px;
+            text-align:center;
+            box-shadow:5px 5px 5px white;
+            text-shadow:3px 3px 3px black;
+        }
+        footer{
+            font-size:30px;
+            text-align:right;
+            font-family:cursive;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <article>
+            <header>
+                <h1>The dream of web developer</h1>
+            </header><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iure repellendus dolorem aperiam inventore recusandae maiores laboriosam numquam officia tempora minus libero quidem rerum suscipit neque, possimus minima perferendis enim, tenetur odio necessitatibus porro facilis! Eaque ullam, cumque delectus deleniti magni ex similique est necessitatibus ipsam perspiciatis beatae praesentium adipisci consectetur optio! Iusto, velit. Beatae recusandae culpa modi vitae dolorum quia repudiandae voluptate totam, aspernatur excepturi molestias eaque maxime neque commodi incidunt facere temporibus officia pariatur dignissimos laudantium veniam unde nesciunt suscipit repellat! Quos vitae impedit assumenda nobis voluptatum ducimus mollitia, eum debitis inventore velit culpa eius obcaecati sed, labore natus asperiores libero. Inventore mollitia voluptate quibusdam maxime eum, perferendis error. Sequi autem blanditiis voluptate corporis eius dolorem dolor quia odio eum beatae. Iusto dolor cum placeat modi molestiae esse mollitia expedita eveniet fuga necessitatibus incidunt velit illo sit unde quia repudiandae neque architecto, ad dolore id nam. Consequuntur unde sunt, cum enim consequatur illo vitae quidem nesciunt temporibus atque, provident tempora error, dolores eum ipsam ut? Eveniet eos corrupti, saepe explicabo cumque, dolores modi dolor ut incidunt, sunt quia distinctio neque iste eligendi asperiores id vel libero ducimus cupiditate voluptate laborum. Sit, dolor? Ullam fuga officia odio nemo adipisci repellendus, placeat culpa facilis quasi aspernatur animi incidunt magnam eligendi iusto reiciendis expedita doloribus maiores hic eaque, minus in est veniam! Voluptas rem, rerum fugiat ipsa, suscipit necessitatibus esse laudantium tempore asperiores placeat cumque ducimus quaerat officiis? Nesciunt dicta, beatae nostrum, iure esse eligendi qui animi explicabo, quas quidem voluptatibus?</p>
+            <footer>
+                <div>Written by : A.I</div>
+            </footer>
+        </article>
+        <article>
+            <header>
+                <h1>The dream of flutter developer</h1>
+            </header><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iure repellendus dolorem aperiam inventore recusandae maiores laboriosam numquam officia tempora minus libero quidem rerum suscipit neque, possimus minima perferendis enim, tenetur odio necessitatibus porro facilis! Eaque ullam, cumque delectus deleniti magni ex similique est necessitatibus ipsam perspiciatis beatae praesentium adipisci consectetur optio! Iusto, velit. Beatae recusandae culpa modi vitae dolorum quia repudiandae voluptate totam, aspernatur excepturi molestias eaque maxime neque commodi incidunt facere temporibus officia pariatur dignissimos laudantium veniam unde nesciunt suscipit repellat! Quos vitae impedit assumenda nobis voluptatum ducimus mollitia, eum debitis inventore velit culpa eius obcaecati sed, labore natus asperiores libero. Inventore mollitia voluptate quibusdam maxime eum, perferendis error. Sequi autem blanditiis voluptate corporis eius dolorem dolor quia odio eum beatae. Iusto dolor cum placeat modi molestiae esse mollitia expedita eveniet fuga necessitatibus incidunt velit illo sit unde quia repudiandae neque architecto, ad dolore id nam. Consequuntur unde sunt, cum enim consequatur illo vitae quidem nesciunt temporibus atque, provident tempora error, dolores eum ipsam ut? Eveniet eos corrupti, saepe explicabo cumque, dolores modi dolor ut incidunt, sunt quia distinctio neque iste eligendi asperiores id vel libero ducimus cupiditate voluptate laborum. Sit, dolor? Ullam fuga officia odio nemo adipisci repellendus, placeat culpa facilis quasi aspernatur animi incidunt magnam eligendi iusto reiciendis expedita doloribus maiores hic eaque, minus in est veniam! Voluptas rem, rerum fugiat ipsa, suscipit necessitatibus esse laudantium tempore asperiores placeat cumque ducimus quaerat officiis? Nesciunt dicta, beatae nostrum, iure esse eligendi qui animi explicabo, quas quidem voluptatibus?</p>
+            <footer>
+                <div>Written by : A.I</div>
+            </footer>
+        </article>
+        <article>
+            <header>
+                <h1>The dream of android developer</h1>
+            </header><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iure repellendus dolorem aperiam inventore recusandae maiores laboriosam numquam officia tempora minus libero quidem rerum suscipit neque, possimus minima perferendis enim, tenetur odio necessitatibus porro facilis! Eaque ullam, cumque delectus deleniti magni ex similique est necessitatibus ipsam perspiciatis beatae praesentium adipisci consectetur optio! Iusto, velit. Beatae recusandae culpa modi vitae dolorum quia repudiandae voluptate totam, aspernatur excepturi molestias eaque maxime neque commodi incidunt facere temporibus officia pariatur dignissimos laudantium veniam unde nesciunt suscipit repellat! Quos vitae impedit assumenda nobis voluptatum ducimus mollitia, eum debitis inventore velit culpa eius obcaecati sed, labore natus asperiores libero. Inventore mollitia voluptate quibusdam maxime eum, perferendis error. Sequi autem blanditiis voluptate corporis eius dolorem dolor quia odio eum beatae. Iusto dolor cum placeat modi molestiae esse mollitia expedita eveniet fuga necessitatibus incidunt velit illo sit unde quia repudiandae neque architecto, ad dolore id nam. Consequuntur unde sunt, cum enim consequatur illo vitae quidem nesciunt temporibus atque, provident tempora error, dolores eum ipsam ut? Eveniet eos corrupti, saepe explicabo cumque, dolores modi dolor ut incidunt, sunt quia distinctio neque iste eligendi asperiores id vel libero ducimus cupiditate voluptate laborum. Sit, dolor? Ullam fuga officia odio nemo adipisci repellendus, placeat culpa facilis quasi aspernatur animi incidunt magnam eligendi iusto reiciendis expedita doloribus maiores hic eaque, minus in est veniam! Voluptas rem, rerum fugiat ipsa, suscipit necessitatibus esse laudantium tempore asperiores placeat cumque ducimus quaerat officiis? Nesciunt dicta, beatae nostrum, iure esse eligendi qui animi explicabo, quas quidem voluptatibus?</p>
+            <footer>
+                <div>Written by : A.I</div>
+            </footer>
+        </article>
+    </section>
+</body>
+</html>
