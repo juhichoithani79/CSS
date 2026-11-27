@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: radial-gradient(circle at top left, #402060, transparent 45%),
+    radial-gradient(circle at bottom right, #172c64, transparent 45%)
+    #090914;
+    color:white;
+}
+.login-card{
+    width: 380px;
+    padding: 40px 32px;
+    background: rgba(255, 255, 255, 0,06);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+    transition: 0.4s;
+}
+.login-card:hover{
+    border-color: #b36bff;
+    box-shadow: 0 20px 60px rgba(151, 71, 255, 0.2);
+}
+.logo{
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #9b5cff, #ff4fa3);
+    box-shadow: 0 0 25px rgba(178, 76, 255, 0.5);
+}
